@@ -86,13 +86,14 @@ a:hover { text-decoration: underline; }
   justify-content: space-between;
 }
 .wordmark {
-  font-family: 'Satoshi', sans-serif;
-  font-weight: 900;
-  font-size: 20px;
-  letter-spacing: -0.3px;
-  color: var(--text-primary);
+  display: block;
+  line-height: 0;
 }
-.wordmark span { color: var(--accent); }
+.wordmark img {
+  height: 30px;
+  width: auto;
+  display: block;
+}
 .site-header nav a {
   color: var(--text-secondary);
   font-weight: 500;
@@ -105,6 +106,12 @@ a:hover { text-decoration: underline; }
 .hero {
   padding: 96px 0 72px;
   text-align: center;
+}
+.hero .hero-logo {
+  height: 84px;
+  width: auto;
+  display: block;
+  margin: 0 auto 32px;
 }
 .hero .tag {
   display: inline-block;
