@@ -147,7 +147,7 @@ a:hover { text-decoration: underline; }
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 16px;
-  padding: 0 0 80px;
+  padding: 0 0 40px;
 }
 .feature {
   background: var(--surface);
@@ -165,6 +165,28 @@ a:hover { text-decoration: underline; }
   font-size: 14px;
   margin: 0;
   line-height: 1.5;
+}
+
+/* Bloque de ayuda del inicio. Apple (guía 1.5) pide que la dirección de
+   soporte lleve a una página donde el usuario pueda preguntar, así que el
+   contacto se ve también aquí, sin tener que navegar. */
+.support-cta {
+  background: var(--surface);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: 28px 24px;
+  margin-bottom: 80px;
+}
+.support-cta h2 {
+  font-size: 18px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+.support-cta p {
+  color: var(--text-secondary);
+  font-size: 15px;
+  margin: 0;
+  line-height: 1.6;
 }
 
 /* Legal document pages */
